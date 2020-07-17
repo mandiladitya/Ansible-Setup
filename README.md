@@ -1,14 +1,15 @@
 # ansible-lab
 Ansible Lab Setup (Containers)
 #git clone
-yum install git -y
 
-git clone https://github.com/sonulodha/ansible-lab.git
+   yum install git -y
 
-cd ansible-lab
+   git clone https://github.com/sonulodha/ansible-lab.git
 
-docker build -t yourusername/ansible .
+   cd ansible-lab
 
-docker login 
+   docker build -t yourusername/ansible .
 
-docker push yourusername/ansible 
+   docker login 
+ 
+   docker push yourusername/ansible 
